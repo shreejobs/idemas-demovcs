@@ -1,0 +1,21 @@
+{
+    "name": "idemas/idemas-demovcs",
+    "description": "Idemas Demo VCS",
+    "type": "yii2-extension",
+    "keywords": ["idemas"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Idemas",
+            "email": "kireniusjobs@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "idemas\\vcs\\": ""
+        }
+    }
+}
